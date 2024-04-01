@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Emily Addison's Webpage </title>
+<link rel="stylesheet" href="computersciencehub.css">
+ <script src="cshub.js"></script>
+</head>
+
+<body>
+
+    <title>Contact Us</title>
+   
+    <!-- Navigation Bar to different pages on the website -->
+	<div class="topnav">
+  		<a href="Computersciencehub.html">Home</a>
+  		<a href="courselist.html">Course List</a>
+        <a href="tutorials.html">Tutorials</a>
+        <a href="resource.html">Student Resource</a>
+ 		<a class="active" href="contactcs.html">Contact Us</a>
+	</div>
+
+<!-- Contact form to send an email to the department-->
+<h1>Contact the Department for any Questions</h1>
+
+<form name="myForm" onsubmit="return validateForm()" action = "uploads.php" method="post">
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" >
+
+    <label for="email">Your Email:</label>
+    <input type="email" id="email" name="email" >
+
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject" >
+
+    <label for="message">Your Message:</label>
+    <textarea id="message" name="message" rows="4" ></textarea>
+
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Computer Science Hub </title>
+  <link rel="stylesheet" href="computersciencehub.css">
+  <script src="cshub.js"></script>
+</head>
+
+<body>
+    <!-- Navigation Bar to different pages on the website -->
+	<div class="topnav">
+  	<a href="Computersciencehub.html">Home</a>
+  	<a href="courselist.html">Course List</a>
+ 	<a class="active" href="tutorials.html">Tutorials</a>
+ 	<a href="resource.html">Student Resource</a>
+    <a href="contactcs.html">Contact Us</a>
+	</div>
+  
+
+<header>
+        <h1>Tutorials</h1>
+</header>
+<section>
+    <p>Search for course tutorials here. If you need help and these tutorials are not enough please attend your courses office hours.</p>
+    
+</section>
+
+<!-- Search button to search for different tutorials on the website -->
+<div class="container4">
+    
+    <input type="text" id="searchInput" placeholder="Search items...">
+    <button onclick="search()">Search</button>
+    
+    <div id="searchResults">
+        <!-- Search results will be displayed here -->
+    </div>
+
+</div>
+
+<!-- Links to different subject areas of tutorials-->
+<h1>Quick Access</h1>
+<ol>
+<li><a href="#section1" class="link">I need help with a programming course</a></li>
+<li><a href="#section2" class="link">I need help with a math course</a></li>
+<li><a href="#section3" class="link">I need help with a computer science elective course</a></li>
+</ol>
+
+<!-- Tutorials for programming courses-->
+<section id="section1">
+    <h1>Programming Tutorials</h1>
+    <p>Here we provide links to different videos to help students better understand programming languages.</p>
+    <p>Python: <a href= "https://www.w3schools.com/python/" target="_blank">Python tutorials for help with understanding python</a></p>
+    <p>Java: <a href= "https://www.youtube.com/watch?v=VmBG8NNHXQQ" target="_blank">Java tutorials for help with understanding Java</a></p>
+    <p>C: <a href= "https://www.geeksforgeeks.org/c-programming-language/" target="_blank">C tutorials for help with understanding C</a></p>
+</section>
+
+<!-- Tutorials for math courses-->
+<section id="section2">
+    <h1>Math Tutorials</h1>
+    <p>Here is some help with some of the math courses.</p>
+    <p>Boolean Algebra: <a href= "https://plato.stanford.edu/entries/boolalg-math/" target="_blank">Here is an introduction to Boolean Algebra.</a></p>
+    <p>Differential Calculus: <a href= "https://www.khanacademy.org/math/calculus-1" target="_blank">Here is tutorials for Differential Calculus</a></p>
+    <p>Integral Calculus: <a href= "https://www.khanacademy.org/math/integral-calculus" target="_blank">Here is tutorials for Integral Calculus</a></p>
+</section>
+
+<!-- Tutorials for elective courses-->
+<section id="section3">
+    <h1>General Help</h1>
+    <p>Here is some help for some of the other courses offered by the computer science department.</p>
+    <p>AI: <a href= https://www.youtube.com/playlist?list=PL9ooVrP1hQOGHNaCT7_fwe9AabjZI1RjI target="_blank">Here is an introduction on AI.</a></p>
+    <p>Networks: <a href= https://www.udemy.com/course/introduction-to-networking-for-complete-beginners/ target="_blank">Here is an introduction to computer networks</a></p>
+    <p>Software Engineering: <a href= https://www.tutorialspoint.com/software_engineering/index.htm target="_blank">Here is an introduction to Software Engineering</a></p>
+</section>
+
+
+</body>
+</html>

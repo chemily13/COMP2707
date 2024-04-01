@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload</title>
+    <link rel="stylesheet" href="computersciencehub.css">
+ <script src="cshub.js"></script>
+</head>
+<body>
+
+    <!-- Navigation Bar to different pages on the website -->
+    <div class="topnav">
+        <a href="Computersciencehub.html">Home</a>
+        <a href="courselist.html">Course List</a>
+       <a href="tutorials.html">Tutorials</a>
+       <a class="active" href="resource.html">Student Resource</a>
+      <a href="contactcs.html">Contact Us</a>
+      </div>
+    
+<!-- Form that allows users to upload files-->
+    <h1>Upload File</h1>
+    <form action="uploads.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="fileToUpload" id="fileToUpload">
+        <input type="submit" value="Upload File" name="submit">
+    </form>
+
+    <!-- Links to course material that proffesors have previously posted to the website-->
+    <section id="section1">
+        <h1>Course Materials</h1>
+        <p>Here is some course material your proffesors may ask for you to review.</p>
+        <p>Textbook for Math for Computer Science: <a href= https://courses.csail.mit.edu/6.042/spring17/mcs.pdf target="_blank">Math for Computer Science</a></p>
+        <p>Lecture Slides for Integral: <a href= https://math.mit.edu/~djk/calculus_beginners/ target="_blank">Full semester slides</a></p>
+       
+    </section>
+</body>
+</html>
